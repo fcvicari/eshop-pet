@@ -1,24 +1,26 @@
 <p align="center">
-  <img src="https://github.com/fcvicari/eshop-pet/blob/main/epetweb/public/logo.png" width="200" alt="eShop Logo" />
+  <img src="https://github.com/fcvicari/eshop-pet/blob/main/epetweb/public/logo.png" width="400" alt="eShop Logo" />
 </p>
 
-## Technologies and license
-
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" alt="Nest Logo" /></a>
-
-  <a href="https://nextjs.org/" target="blank"><img src="https://github.com/fcvicari/eshop-pet/blob/main/epetweb/public/next.svg" alt="Nest Logo" /></a>
-
-  <a href="https://www.prisma.io/" target="blank"><img src="https://prismalens.vercel.app/header/logo-dark.svg" alt="Prisma Logo" /></a>
-
-  <a href="https://www.cockroachlabs.com/" target="blank"><img src="https://cockroachlabs.cloud/assets/images/logos/lockup-full-color-dark-background.svg" alt="Cockroach database" /></a>
-</p>
-
-## Descriptio
+## Description
 
 This project aims to study React technologies with the NextJS framework for frontend development and NodeJS with the NestJS framework for backend development.
 
 The CockroachDB serverless database will be used in this project. To use it, go to the <a href="https://www.cockroachlabs.com/" target="blank">CockroachDB</a> website, create an account, set up a cluster, create a user and set the DATABASE_URL environment variable in the .env file.
+
+## Technologies
+
+### NestJS
+A progressive Node.js framework for building efficient, reliable and scalable server-side applications.
+
+### NextJS
+Vercel's platform is made by the creators of Next.js, designed for Next.js applications.
+
+### Prisma ORM
+
+### Cockroach database
+Next-generation Node.js and TypeScript ORM
+
 
 ## Installation
 
