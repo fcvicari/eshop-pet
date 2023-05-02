@@ -21,7 +21,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={roboto.className}>
-        {children}
+        <div className="flex h-full w-full grow">
+          {children}
+        </div>
       </body>
     </html>
   )
