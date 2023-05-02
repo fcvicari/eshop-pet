@@ -9,3 +9,12 @@ datasource db {
   provider = "cockroachdb"
   url      = env("DATABASE_URL")
 }
+
+model Users {
+  id       String @id @default(cuid())
+  nameUser String
+  email    String
+  password String
+
+  @@unique([email])
+}
