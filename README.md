@@ -17,10 +17,10 @@ A progressive Node.js framework for building efficient, reliable and scalable se
 Vercel's platform is made by the creators of Next.js, designed for Next.js applications.
 
 ### Prisma ORM
-
-### Cockroach database
 Next-generation Node.js and TypeScript ORM
 
+### Cockroach database
+A distributed SQL database designed for speed, scale and survival.
 
 ## Installation
 
