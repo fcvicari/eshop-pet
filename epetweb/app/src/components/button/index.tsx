@@ -9,7 +9,7 @@ interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
 
 export function Button({ variant, label, Icon, size, ...props }: ButtonProps) {
   const buttonClass = {
-    base: 'flex gap-2 justify-center items-center rounded-lg text-sm font-bold h-10 ease-linear drop-shadow-[2px_2px_4px_rgba(34,68,102,0.25)]',
+    base: 'flex gap-2 justify-center items-center rounded-lg text-sm outline-0 font-bold h-10 ease-linear drop-shadow-[2px_2px_4px_rgba(34,68,102,0.25)]',
     size: {
       xs: 'w-24',
       sm: 'w-32',
