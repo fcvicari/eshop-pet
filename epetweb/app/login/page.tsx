@@ -1,11 +1,12 @@
 "use client"
+
+import { FiEye, FiEyeOff, FiMail } from 'react-icons/fi'
+
+import { Button } from '../src/components/button';
 import Image from 'next/image';
+import { Input } from '../src/components/input';
 import Link from 'next/link';
 import Logo from '../../public/logo.png';
-
-import { FiMail, FiEye, FiEyeOff } from 'react-icons/fi'
-import { Input } from '../src/components/input';
-import { Button } from '../src/components/button';
 
 export default function Login() {
   return (
@@ -26,6 +27,7 @@ export default function Login() {
             inputSize="full"
             label='E-Mail'
             type="email"
+            error="mensagem de erro"
             Icon={FiMail}
           />
 
